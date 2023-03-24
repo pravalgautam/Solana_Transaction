@@ -9,11 +9,10 @@ e.preventDefault()
 
   const connection = new Connection("https://api.devnet.solana.com");
 console.log(amt)
-const publicKeyObject = new PublicKey(publicKeyRecie);
+const p = new PublicKey(publicKeyRecie);
 
-			// 1e9 lamports = 10^9 lamports = 1 SOL
-			let txhash = await connection.requestAirdrop(publicKeyObject, 1e9);
-			console.log(`txhash: ${txhash}`);
+			let hash = await connection.requestAirdrop(p, (amt*(10**9)));
+			console.log(`hash: ${hash}`);
   
 };
 
