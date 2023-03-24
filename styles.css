@@ -2,13 +2,14 @@
       
        margin: 0;
        box-sizing: border-box;
-      
+       background-image: linear-gradient( green);
      }
 
 
 .container {
+ 
   position: relative;
-  margin: 150px 100px;
+  margin: 190px 300px;
   bottom: 0rem;
   left: 34px;
   right: 45px;
@@ -17,23 +18,22 @@
   border-radius: 89px;
   background: #e0e0e0;
   box-shadow: 41px 41px 82px #a4a4a4, -41px -41px 82px #ffffff;
+
 }
 
 button {
   position: absolute;
-  bottom: 50px;
-  left: 300px;
+  bottom: 150px;
+  left: 420px;
  
   --btn-color: rgb(64, 48, 242);
 
-  padding: 1em 5em;
+  padding: 0.5em 3em;
   color: var(--glow-color);
   font-size: 15px;
   font-weight: bold;
   background-color: var(--btn-color);
   border-radius: 1em;
- 
-color: wheat;
   transition: all 0.3s;
 }
 
@@ -47,58 +47,39 @@ button:hover {
 
 
 #publicKeyRecie {
+  padding: 13px;
   position: absolute;
   bottom: 290px;
-  left: 110px;
+  left: 330px;
   margin: 30px;
-  background: none;
-  border: none;
-  outline: none;
-  width: 590px;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 9999px;
-  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-  color: #030303;
+  width: 30vh;
+
+  
 }
 #Amount{
-  position: absolute;
 
+  position: absolute;
+padding: 13px;
+  width: 30vh;
   bottom: 210px;
-  left: 110px;
+  left: 330px;
   margin: 30px;
-  background: none;
-  border: none;
-  outline: none;
-  width: 590px;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 9999px;
-  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-  color: #0a0a0a;
+ 
 }
 
-.SelectToken{
+/* .SelectToken{
   position: absolute;
   bottom: 120px;
   left: 110px;
   margin: 30px;
-  background: none;
-  border: none;
-  outline: none;
-  width: 590px;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 9999px;
-  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
-  color: #0c0c0c;
-}
+ width: 200px;
+} */
 
 
 h1{
   position: absolute;
   bottom: 430px;
-left: 150px;
+left: 250px;
 text-decoration: solid 3px;
 
 }
